@@ -30,3 +30,12 @@ function getHumanChoice() {
 
 //const humanChoice = getHumanChoice(); - testing assigning function return value to variable
 //console.log(humanChoice);
+
+//Declare variables for score of user and computer
+//Initialize as 0
+
+let humanScore = 0;
+let computerScore = 0;
+
+console.log(humanScore);
+console.log(computerScore);

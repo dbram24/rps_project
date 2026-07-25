@@ -37,5 +37,18 @@ function getHumanChoice() {
 let humanScore = 0;
 let computerScore = 0;
 
-console.log(humanScore);
-console.log(computerScore);
+//console.log(humanScore); - testing initialize of these score variables
+//console.log(computerScore);
+
+/* When playRound is run
+Takes humanChoice and computerChoice as parameters
+Makes humanChoice case-insensitive
+Compares humanChoice to computerChoice
+Declares winner based on Rock-Paper-Scissors rules
+Prints victory/defeat message to console
+Increments humanScore or computerScore based on winner
+*/
+
+function playRound(humanChoice,computerChoice) {
+    
+}

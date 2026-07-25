@@ -8,11 +8,11 @@ function getComputerChoice() {
     //console.log(randomNumber);
 
     if (randomNumber <= 33) {
-        return "Rock"
+        return "rock"
     } else if (randomNumber <= 66) {
-        return "Paper"
+        return "paper"
     } else {
-        return "Scissors"
+        return "scissors"
     }
 }
 
@@ -51,7 +51,9 @@ Increments humanScore or computerScore based on winner
 
 function playRound(humanChoice,computerChoice) {
     humanChoice = humanChoice.toLowerCase();
-    console.log(humanChoice);
+    //console.log(humanChoice); - testing lowercase method on humanChoice
+
+
 }
 
 const humanSelection = getHumanChoice();

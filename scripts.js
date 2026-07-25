@@ -50,5 +50,11 @@ Increments humanScore or computerScore based on winner
 */
 
 function playRound(humanChoice,computerChoice) {
-    
+    humanChoice = humanChoice.toLowerCase();
+    console.log(humanChoice);
 }
+
+const humanSelection = getHumanChoice();
+const computerSelection =getComputerChoice();
+
+playRound(humanSelection,computerSelection);

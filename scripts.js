@@ -25,6 +25,8 @@ Returns user's input
 */
 
 function getHumanChoice() {
-    const humanChoice = prompt("Rock, Paper, or Scissors?");
-    console.log(humanChoice);
+    return prompt("Rock, Paper, or Scissors?");
 }
+
+const humanChoice = getHumanChoice();
+console.log(humanChoice);

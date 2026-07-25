@@ -16,5 +16,15 @@ function getComputerChoice() {
     }
 }
 
-const computerChoice = getComputerChoice();
-console.log(computerChoice);
+//const computerChoice = getComputerChoice();
+//console.log(computerChoice);
+
+/*When getHumanChoice runs
+Prompts user for input
+Returns user's input
+*/
+
+function getHumanChoice() {
+    const humanChoice = prompt("Rock, Paper, or Scissors?");
+    console.log(humanChoice);
+}

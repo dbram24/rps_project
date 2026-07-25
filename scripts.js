@@ -16,7 +16,7 @@ function getComputerChoice() {
     }
 }
 
-//const computerChoice = getComputerChoice();
+//const computerChoice = getComputerChoice(); - testing assigning function return value to variable
 //console.log(computerChoice);
 
 /*When getHumanChoice runs
@@ -28,5 +28,5 @@ function getHumanChoice() {
     return prompt("Rock, Paper, or Scissors?");
 }
 
-const humanChoice = getHumanChoice();
-console.log(humanChoice);
+//const humanChoice = getHumanChoice(); - testing assigning function return value to variable
+//console.log(humanChoice);
